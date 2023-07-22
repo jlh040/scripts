@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script was written on a CentOS distro
+
 # The goal of this script is to add a user to the Linux system
 # that the script is executed on.
 
