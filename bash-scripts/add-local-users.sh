@@ -6,7 +6,7 @@
 # that the script is executed on.
 
 # Enforce that the user is the root user or running as sudo
-if [[ "$(id -u)" -ne 0 ]]
+if [[ "${UID}" -ne 0 ]]
 then
   echo "Please run with sudo or as root."
   exit 1
