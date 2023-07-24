@@ -44,6 +44,15 @@ fi
 # Force the password to change on inital login
 passwd --expire $USER_NAME
 
+# Check that the passwd expire operation ran successfully
+if [[ "${?}" -ne 0 ]]
+then
+  echo "Forced password expiration failed."
+  echo "Please run passwd --expire ${USER_NAME}."
+  exit 1
+fi
+
+
 # Display the username
 echo -e "\nusername:\n${USER_NAME}\n"
 
