@@ -52,9 +52,11 @@ then
   exit 1
 fi
 
+#Initiate a newline
+echo
 
 # Display the username
-echo -e "\nusername:\n${USER_NAME}\n"
+echo -e "username:\n${USER_NAME}\n"
 
 # Display the password
 echo -e "password:\n${PASSWORD}\n"
