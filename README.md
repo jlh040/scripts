@@ -1,9 +1,9 @@
 ## This repository contains various useful Bash scripts
 
-### To run the script, type the following code in a bash shell:
+### To run a script, type the following code in a bash shell:
 ```
-chmod +x add-local-users.sh
+chmod +x name-of-script.sh
 ```
 ```
-./add-local-users.sh
+./name-of-script.sh
 ```
